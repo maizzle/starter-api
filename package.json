@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "@maizzle/framework": "^3.0.0"
+  }
+}
