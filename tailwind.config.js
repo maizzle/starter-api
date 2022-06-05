@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    './layout.html'
+    './**/*.html'
   ],
   theme: {
     screens: {
