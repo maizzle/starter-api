@@ -1,4 +1,7 @@
 module.exports = {
+  content: [
+    './layout.html'
+  ],
   theme: {
     screens: {
       xs: {max: '425px'},

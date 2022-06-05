@@ -58,6 +58,9 @@ Maizzle.render(
       removeUnusedCSS: true,
       shorthandInlineCSS: true,
     },
+    tailwind: {
+      config: './tailwind.config.js',
+    },
   }
 )
   .then(({html}) => console.log(html))
