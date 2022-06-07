@@ -1,6 +1,18 @@
-## Using Maizzle in Node.js
+<div align="center">
+  <p>
+    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
+      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
+    </a>
+    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
+      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    </a>
+  </p>
+  <p>Maizzle API Starter</p>
+</div>
 
-This example shows how to [use Maizzle programmatically](https://maizzle.com/docs/nodejs/) to build HTML email templates in a Node.js application, with Layouts, Components, and the `render()` method.
+## About
+
+This example shows how to [use Maizzle programmatically](https://maizzle.com/docs/api) to build HTML email templates in a Node.js application, with Layouts, Components, and the `render()` method.
 
 ## Getting Started
 
@@ -9,23 +21,19 @@ This example shows how to [use Maizzle programmatically](https://maizzle.com/doc
 npm i -g @maizzle/cli
 
 # scaffold the project
-maizzle new https://github.com/maizzle/example-nodejs.git
+maizzle new api starter-api
 
 # change directory
-cd example-nodejs
+cd starter-api
 
 # install dependencies
 npm install
 
 # run the script
-node example.js
+npm run build
 ```
 
 The script will log the compiled HTML to the console.
-
-Pasting the compiled HTML into a tool like [alter.email](https://alter.email) will render this:
-
-![sample output](https://github.com/maizzle/example-nodejs/blob/main/cover.png?raw=true)
 
 ## Documentation
 
