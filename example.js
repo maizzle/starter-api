@@ -16,16 +16,20 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
             height="400px"
             image="{{ page.image }}"
           >
-            <div class="leading-16 sm:h-8">&zwnj;</div>
+            <div class="leading-16 sm:h-8">&zwj;</div>
+
             <table class="w-full">
               <tr>
                 <td class="w-12 sm:w-4"></td>
                 <td>
                   <h1 class="m-0 mb-4 text-4xl text-white sm:leading-10">Using Maizzle in Node.js</h1>
+
                   <p class="m-0 text-white text-lg leading-6">
                     Using Maizzle programmatically in Node.js, with Layouts, Components, and the \`render()\` method.
                   </p>
-                  <div class="leading-16 sm:h-8">&zwnj;</div>
+
+                  <div class="leading-16 sm:h-8">&zwj;</div>
+
                   <div class="leading-full">
                     <a
                       href="https://maizzle.com/docs/nodejs/"
@@ -40,14 +44,14 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                 <td class="w-12 sm:w-4"></td>
               </tr>
             </table>
-            <div class="leading-16 sm:h-8">&zwnj;</div>
+
+            <div class="leading-16 sm:h-8">&zwj;</div>
           </component>
         </td>
       </tr>
     </table>
   </block>
-</extends>
-`
+</extends>`
 
 Maizzle.render(
   template,
