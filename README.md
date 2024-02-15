@@ -18,19 +18,17 @@ This example shows how to [use Maizzle programmatically](https://maizzle.com/doc
 
 ## Getting Started
 
-```sh
-# install the CLI globally
-npm i -g @maizzle/cli
+Run this command:
 
-# scaffold the project
-maizzle new api starter-api
+```bash
+npx create-maizzle
+```
 
-# change directory
-cd starter-api
+When prompted to select a Starter, choose Custom → API.
 
-# install dependencies
-npm install
+## Development
 
+```bash
 # run the script
 npm run build
 ```
