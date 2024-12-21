@@ -1,6 +1,7 @@
 import { render } from '@maizzle/framework'
+import tailwindcssPresetEmail from 'tailwindcss-preset-email'
 
-let template = `---
+let input = `---
 preheader: "Using Maizzle on the server"
 ---
 
@@ -43,14 +44,25 @@ preheader: "Using Maizzle on the server"
 </x-layout>`
 
 /** @type {import('@maizzle/framework').Config} */
-render(
-  template,
+const { html } = await render(input,
   {
     css: {
       inline: true,
       purge: true,
       shorthand: true,
+      tailwind: {
+        presets: [tailwindcssPresetEmail],
+        content: [
+          './components/**/*.html',
+          {
+            raw: input,
+            extension: 'html'
+          },
+        ]
+      }
     },
     prettify: true,
   }
-).then(({html}) => console.log(html))
+)
+
+console.log(html)
