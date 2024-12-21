@@ -1,10 +1,10 @@
 <div align="center">
   <p>
-    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
-      <img src="./.github/logo-light.svg" alt="Maizzle" width="300">
-    </a>
-    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
-      <img src="./.github/logo-dark.svg" alt="Maizzle" width="300">
+    <a href="https://maizzle.com" target="_blank">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/maizzle/maizzle/raw/master/.github/logo-dark.svg">
+        <img alt="Maizzle Starter" src="https://github.com/maizzle/maizzle/raw/master/.github/logo-light.svg" width="300" height="225" style="max-width: 100%;">
+      </picture>
     </a>
   </p>
 
@@ -14,7 +14,7 @@
 
 ## About
 
-This example shows how to [use Maizzle programmatically](https://maizzle.com/docs/api) to build HTML email templates in a Node.js application, with Layouts, Components, and the `render()` method.
+A starter project for [using Maizzle programmatically](https://maizzle.com/docs/api) to build HTML email templates in a Node.js application, with Layouts, Components, and the `render()` method.
 
 ## Getting Started
 
@@ -29,7 +29,6 @@ When prompted to select a Starter, choose Custom → API.
 ## Development
 
 ```bash
-# run the script
 npm run build
 ```
 
